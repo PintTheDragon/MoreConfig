@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MoreConfig")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A plugin to make SCPSL more configurable.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("PintTheDragon")]
 [assembly: AssemblyProduct("MoreConfig")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © PintTheDragon 2020")]
+[assembly: AssemblyTrademark("PintTheDragon")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
