@@ -1,14 +1,9 @@
-﻿using HarmonyLib;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MoreConfig.Patches
+﻿namespace MoreConfig.Patches
 {
+    using HarmonyLib;
+
     [HarmonyPatch(typeof(Scp939_VisionController))]
-    class Scp939VisionController
+    class Scp939Vision
     {
         private static void Postfix(Scp939_VisionController __instance)
         {
