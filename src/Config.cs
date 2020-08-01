@@ -38,5 +38,9 @@
         public float triggerBounds1 { get; set; } = 0.64f;
 
         public float triggerBounds2 { get; set; } = 0.1f;
+
+        public float surfaceTriggerDistance { get; set; } = 60f;
+
+        public float triggerDistance { get; set; } = 30f;
     }
 }

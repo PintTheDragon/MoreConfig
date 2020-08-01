@@ -40,13 +40,13 @@ namespace MoreConfig.Patches
 				__result = visionInformation;
 				return;
 			}
-			if (visionInformation.Distance > ((__instance.Hub.transform.position.y > 980f) ? 60f : 30f))
+			if (visionInformation.Distance > ((__instance.Hub.transform.position.y > 980f) ? MoreConfig.singleton.Config.Scp096Config.surfaceTriggerDistance : MoreConfig.singleton.Config.Scp096Config.triggerDistance))
 			{
 				__result = visionInformation;
 				return;
 			}
 			RaycastHit raycastResult;
-			if (!Physics.Raycast(visionInformation.Source.transform.position, (visionInformation.Target.transform.position - visionInformation.Source.transform.position).normalized, out raycastResult, 60f, PlayableScps.Scp096.VisionLayerMask))
+			if (!Physics.Raycast(visionInformation.Source.transform.position, (visionInformation.Target.transform.position - visionInformation.Source.transform.position).normalized, out raycastResult, MoreConfig.singleton.Config.Scp096Config.surfaceTriggerDistance, PlayableScps.Scp096.VisionLayerMask))
 			{
 				__result = visionInformation;
 				return;
