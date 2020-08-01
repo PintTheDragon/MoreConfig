@@ -34,7 +34,7 @@ namespace MoreConfig.Patches
 			float num2 = -Vector3.Dot((position - position2).normalized, __instance.Hub.PlayerCameraReference.forward);
 			visionInformation.DotProduct = num;
 			visionInformation.Looking = true;
-			if (num < MoreConfig.singleton.Config.Scp096Config.bounds1 || num2 < MoreConfig.singleton.Config.Scp096Config.bounds2)
+			if (num < MoreConfig.singleton.Config.Scp096Config.triggerBounds1 || num2 < MoreConfig.singleton.Config.Scp096Config.triggerBounds2)
 			{
 				visionInformation.Looking = false;
 				__result = visionInformation;

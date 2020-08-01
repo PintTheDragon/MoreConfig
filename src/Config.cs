@@ -35,8 +35,8 @@
 
     public class Scp096Config
     {
-        public float bounds1 { get; set; } = 0.64f;
+        public float triggerBounds1 { get; set; } = 0.64f;
 
-        public float bounds2 { get; set; } = 0.1f;
+        public float triggerBounds2 { get; set; } = 0.1f;
     }
 }
