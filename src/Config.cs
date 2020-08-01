@@ -14,6 +14,9 @@
 
         [Description("All config options fo SCP-079.")]
         public Scp079Config Scp079Config { get; set; } = new Scp079Config();
+
+        [Description("All config options fo SCP-096.")]
+        public Scp096Config Scp096Config { get; set; } = new Scp096Config();
     }
 
     public class Scp939Config
@@ -28,5 +31,12 @@
         public float maxMana { get; set; } = 100f;
 
         public float startingMana { get; set; } = 100f;
+    }
+
+    public class Scp096Config
+    {
+        public float bounds1 { get; set; } = 0.64f;
+
+        public float bounds2 { get; set; } = 0.1f;
     }
 }
